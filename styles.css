@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191919;
+    color: white;
+    text-align: center;
+}
+
+#roles{
+    color: red;
+}
+
+/* hay que usar Mobile firts */
+@media (min-width: 12000px){
+    body{
+        background-color: red;
+    }
+}
+
+/*
+0-480 celulares pequeños
+
+481-768 telefonos grandes
+
+769-1279 laptops y tablets
+
+1280+ dekstops y monitores
+
+*/
